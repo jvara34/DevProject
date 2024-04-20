@@ -1,0 +1,25 @@
+Color Scheme 
+1) Light colors like blue maybe purple 
+2) white would be the main colors 
+
+
+Bottom Footer 
+1) Create bottom footer for each page 
+2) Created by me 
+3) Phone number, email, and also where I am located just city 
+
+
+Contact Page 
+1) add pdf of Resume 
+    a photo resume where they could click and it grows in size 
+
+2) add links to Github, Linkedin, 
+    little images of github and linkedin where they can click it and it takes them to the page 
+
+3) Also add phone number and gmail to the bottom of the page 
+
+
+Photos/Videos
+1) Get photos of me to add to website 
+2) Add video of the music and have it play when clicked on 
+3) How to show programming projects on profolio website 

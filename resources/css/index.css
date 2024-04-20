@@ -1,0 +1,89 @@
+/*index.html*/ 
+
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center; 
+}
+
+.navbar ul{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.banner {
+    background-color: cadetblue;  
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 50px; 
+}
+
+#small-f1 {
+    height: 200px;
+    width: 200px;
+}
+
+.projects {
+    text-align: center;
+    padding: 50px 50px;
+    color: black;
+    
+
+}
+
+#flex{
+    display: flex;
+    width: 500px; 
+    color: white;
+}
+
+#LEFT{
+    width: 100px; 
+    height: 100px; 
+    text-align: center; 
+    padding: 50px;  
+    margin-left: 200px;
+    margin-top: 100px; 
+    background-color: blue; 
+}
+
+#RIGHT{
+    width: 100px;
+    height: 100px; 
+    background-color: red; 
+    padding: 50px; 
+    text-align: center; 
+    margin-left: 900px;
+    margin-top: 100px; 
+}
+
+/*Project.html*/ 
+
+#Test{
+    color: blue; 
+}
+
+/*about.html*/
+#skills{
+    text-align: center;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*contact.html*/ 
