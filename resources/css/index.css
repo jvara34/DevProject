@@ -1,7 +1,7 @@
 /*index.html*/ 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
 
-* {
+header {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -59,7 +59,7 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
-.navbar {
+.nav {
     background-color: #24252a;
     position: fixed;
     top: 0;
@@ -224,3 +224,25 @@ ul{
 }
 
 /*contact.html*/ 
+.contactinfo{
+    text-align: center;
+}
+
+
+/*PDF*/ 
+.pdf {
+    width: 50%;
+    aspect-ratio: 4 / 3;
+}
+.pdf,
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1,
+h3 {
+    text-align: center;
+}
+
