@@ -2,25 +2,14 @@
 - find text font for the entire website 
 
 Color Scheme 
-1) Light colors like blue maybe purple 
-2) Darker theme color maybe a teal or blueish color is looking nice 
-
-Top Header 
-  
+- Need to find a color scheme for me 
+     - possibly white because it is the cleanest and simplest 
 
 
-Bottom Footer 
-1) Phone number, email, and also where I am located just city 
-
-
+     
 Contact Page 
-1) add pdf of Resume 
-    a photo resume where they could click and it grows in size 
-
-2) add links to Github, Linkedin, 
-    - *NEED* to add the link to those pages 
-
-3) Also add phone number and gmail to the bottom of the page 
+- Add photo of me
+- Bring the text on the right side inline with the photo  
 
 
 Photos/Videos
