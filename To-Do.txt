@@ -1,5 +1,6 @@
 *NEED TO DO* 
-- find text font for the entire website 
+- find text font for the entire website
+- Figure out how to host Website off of AWS  
 
 Color Scheme 
 - Need to find a color scheme for me 
