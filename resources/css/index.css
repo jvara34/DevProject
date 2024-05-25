@@ -5,14 +5,14 @@ header {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252a;
+    background-color: white;
 }
 
 .head li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
+    color: black;
     text-decoration: none;
 }
 
@@ -43,12 +43,12 @@ header {
 }
 
 .nav_links li a:hover {
-    color: #0088a9;
+    color: cadetblue;
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgba(95, 158, 160, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -56,7 +56,7 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: rgba(95, 158, 160, 0.8);
 }
 
 .nav {
@@ -121,11 +121,11 @@ button:hover {
 #RIGHT{
     width: 100px;
     height: 100px; 
-    background-color: red; 
     padding: 50px; 
     text-align: center; 
     margin-left: 900px;
-    margin-top: 100px; 
+    margin-top: 100px;
+    background-color: red;  
 }
 
 /*Footer CSS*/ 
@@ -173,6 +173,28 @@ footer{
 
 /* End of Hover Effects on Social Media Icons */ 
 
+.banner{
+    flex: 1; /* Grow to fill remaining space */
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Set minimum height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 
 .footerNav{
     margin: 15px 0;
@@ -197,13 +219,13 @@ footer{
 }
 
 .footerBottom{
-    background-color: #000;
+    background-color: white;
     padding: 10px;
     text-align: center;
 }
 
 .footerBottom p{
-    color: white; 
+    color: black; 
 }
 
 
@@ -228,15 +250,14 @@ ul{
     text-align: center;
 }
 
-#right{
-    text-align: right;
-    
+.banner{
+    display: flex;
+    padding: 200px;
 }
 
-#left{
-    text-align: left;
+.box{
+    width: 50%; 
 }
-
 
 /*PDF*/ 
 .pdf {
