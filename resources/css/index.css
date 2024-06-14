@@ -1,6 +1,7 @@
 /*index.html*/ 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 header {
     box-sizing: border-box;
     margin: 0;
@@ -8,8 +9,12 @@ header {
     background-color: white;
 }
 
+p, h1, h2{
+    font-family: "Roboto Mono";
+}
+
 .head li, a, button {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Mono";
     font-weight: 500;
     font-size: 16px;
     color: black;
@@ -88,11 +93,12 @@ button:hover {
     margin: 0;
     text-align: center;
     padding: 50px; 
+    flex: 1; /* Grow to fill remaining space */
+    display: flex;
 }
 
-#small-f1 {
-    height: 200px;
-    width: 200px;
+.words {
+    padding: 200px;
 }
 
 .projects {
@@ -140,7 +146,7 @@ footer{
 }
 .footerContainer{
     width: 100%;
-    padding: 40px 30px 20px;
+    padding: 10px 30px 20px;
 }
 .socialIcons{
     display: flex; 
@@ -173,10 +179,6 @@ footer{
 
 /* End of Hover Effects on Social Media Icons */ 
 
-.banner{
-    flex: 1; /* Grow to fill remaining space */
-    padding: 20px;
-}
 
 body {
     margin: 0;
@@ -250,10 +252,7 @@ ul{
     text-align: center;
 }
 
-.banner{
-    display: flex;
-    padding: 200px;
-}
+
 
 .box{
     width: 50%; 
@@ -276,4 +275,15 @@ h3 {
     text-align: center;
 }
 
+
+img {
+    
+    aspect-ratio: 1 / 1;
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin: auto; 
+    
+}
 
